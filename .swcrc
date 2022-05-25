@@ -1,0 +1,18 @@
+{
+  "jsc": {
+    "loose": true
+  },
+  "module": {
+    "type": "umd",
+//     "globals": {},
+
+    // These are defaults.
+    "strict": false,
+    "strictMode": true,
+    "lazy": false,
+    "noInterop": false
+  },
+  "env": {
+    "targets": "> 0.25%, not dead"
+  }
+}
