@@ -5,7 +5,6 @@
   "module": {
     "type": "umd",
 //     "globals": {},
-
     // These are defaults.
     "strict": false,
     "strictMode": true,
