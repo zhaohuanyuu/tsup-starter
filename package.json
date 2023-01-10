@@ -6,7 +6,7 @@
   "module": "dist/index.mjs",
   "typings": "dist/types/index.d.ts",
   "scripts": {
-    "cli": "pnpm ts-node-dev --respawn src/index.ts",
+    "cli": "pnpm ts-node-dev --respawn src/cli/index.ts",
     "start": "tsup src/index.ts --watch --env.NODE_ENV development",
     "build": "tsup src/index.ts --env.NODE_ENV production",
     "prepublishOnly": "pnpm run build",

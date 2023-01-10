@@ -1,23 +1,16 @@
-class Greeter {
-  greet() {
-    console.log("Hello, ", this.getName())
-  }
-
-  protected getName() {
-    return 'Nobody'
-  }
+interface Todo {
+  title: string
+  description: string
 }
 
-class SpecialGreeter extends Greeter {
-  public howdy() {
-    // OK to access protected member here
-    console.log("Howdy, " + this.getName());
-  }
+let a: Todo = {
+  title: 'a',
+  description: 'aaa'
 }
 
-const g = new SpecialGreeter();
-g.greet();
-g.howdy();
-// g.getName()
+let b: Todo = {
+  title: 'b',
+  description: 'bbb'
+}
 
-export default Greeter;
+console.log(a == b)
